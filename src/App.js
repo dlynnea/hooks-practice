@@ -75,7 +75,7 @@ function App() {
     setTodos(newTodos);
   }
 
-  return (
+  return(
     <div className="App">
       <div className="todo-list">
         {todos.map((todo, index) => (
@@ -92,5 +92,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
